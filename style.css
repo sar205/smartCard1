@@ -1,0 +1,93 @@
+.logo {
+    position: absolute;
+    top: 17%; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.widthBox {
+    position: relative; /* Make sure position is relative */
+    width: 350px;
+    height: 200px;
+    margin: 0 auto; /* Center the box horizontally */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    z-index: 1;
+}
+
+.widthBox h2 {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainDiv {
+    position: relative; /* Make sure position is relative */
+    margin-top: 300px; /* Adjust to create space below logo */
+    width: 350px;
+    height: 400px;
+    margin: 2px auto; /* Center the box horizontally */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: rgb(41, 41, 77);
+}
+
+.nameField{
+    margin-top: 3rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.phoneNumber a{
+    text-decoration: none;
+    color: rgb(212, 210, 210);
+    font-size: 1rem;
+}
+
+.whatsapp a{
+    text-decoration: none;
+    color: rgb(212, 210, 210);
+}
+.phoneNumber a i{
+    color: rgb(238, 163, 23);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.whatsapp a i{
+    color: rgb(238, 163, 23);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.location a{
+    text-decoration: none;
+    color: rgb(212, 210, 210);
+}
+
+.location a i{
+    color: rgb(238, 163, 23);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.nameField h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(226, 223, 223);
+}
+
+.fixed-bottom-center {
+    position: fixed;
+    bottom: 20px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999; /* Ensure it's above other content */
+}
+
